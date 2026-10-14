@@ -1,0 +1,71 @@
+
+
+             $(c6)Reverie Amidst Ruins$(reset)
+
+         $(dim)a game by @yousuckatprogramming$(reset)
+
+$(dim)
+========================================================
+==    $(reset)$(c6)Controls                                       $(reset)$(dim) ==
+========================================================$(reset)
+
+Movement - Keyboard
+- $(c6)wasd / arrows$(reset) -> Move player
+- $(c6)space bar    $(reset) -> Jump
+- $(c6)r            $(reset) -> Restart level (counts as a death)
+
+Movement - Gamepad
+- $(c6)d-pad        $(reset) -> Move player
+- $(c6)south button $(reset) -> Jump / Confirm
+- $(c6)start        $(reset) -> Confirm
+- $(c6)west button  $(reset) -> Restart level (counts as a death)
+
+Utility
+- $(c6)num 1        $(reset) -> Toggle post-processing effects
+- $(c6)num 2        $(reset) -> Save screenshot to current directory
+- $(c6)num 3        $(reset) -> Randomize level color palette
+- $(c6)num 4        $(reset) -> Toggle debug statistics
+- $(c6)num 8        $(reset) -> Lower master volume by 5%
+- $(c6)num 9        $(reset) -> Raise master volume by 5%
+- $(c6)m            $(reset) -> Mute audio
+- $(c6)- / _        $(reset) -> Shrink image by one column
+- $(c6)+ / =        $(reset) -> Grow image by one column
+
+$(dim)
+========================================================
+==    $(reset)$(c6)Command Arguments                              $(reset)$(dim) ==
+========================================================$(reset)
+
+  $(c6)--fps <num>       $(reset)FPS to target, defaults to 60
+  $(c6)--debug           $(reset)Show frame bandwidth statistics
+  $(c6)--level <num>     $(reset)Level to start on, defaults to 1
+  $(c6)--no-audio        $(reset)Disable audio completely
+  $(c6)--volume <0-100>  $(reset)Master volume, defaults to 100
+
+$(dim)
+========================================================
+==    $(reset)$(c6)Credits                                        $(reset)$(dim) ==
+========================================================$(reset)
+
+All code, music, assets, etc. done by $(c2)Dave Eddy$(reset).
+
+The Game Itself
+ - Language       $(c6)Rust$(reset)
+ - Graphics       $(c6)Kitty Graphics Protocol$(reset)
+ - Audio Engine   $(c6)rodio Crate$(reset)
+
+Assets
+ - Backgrounds    Generated via
+                  $(c6)https://deep-fold.itch.io/space-background-generator$(reset)
+ - SFX            Generated via
+                  $(c6)https://raylibtech.itch.io/rfxgen$(reset)
+ - Music          All songs written by $(c2)Dave Eddy$(reset)
+                  $(c6)https://music.daveeddy.com$(reset)
+
+Like the music? Listen to the full album in your terminal:
+
+    $(bold)$(c6)curl nightfall.ysap.sh | bash$(reset)
+
+Socials / Connect
+  - Source Code     $(c6)https://github.com/bahamas10/reverie-amidst-ruins$(reset)
+  - Dave's YouTube  $(c6)https://www.youtube.com/@yousuckatprogramming$(reset)
