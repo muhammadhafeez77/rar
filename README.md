@@ -14,7 +14,7 @@ Make sure you have [Rust](https://rust-lang.org) installed to compile the source
 code, then clone this repo and run it with:
 
     git clone https://github.com/muhammadhafeez77/rar.git
-    cd reverie-amidst-ruins
+    cd rar
     cargo run --release
 
 On Linux you may need to install:
