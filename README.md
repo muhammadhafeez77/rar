@@ -98,14 +98,11 @@ Tested Terminals
 - [WezTerm](https://wezterm.org) : works but choppy visuals (FPS is
     high but the image rendered appears to stutter)
 
+<!-- 
 Screenshots
 -----------
-#
-#![title](screenshots/title.jpg)
-#![level2](screenshots/level2.jpg)
-#![level3](screenshots/level3.jpg)
-#
-License
--------
 
-MIT License
+![title](screenshots/title.jpg)
+![level2](screenshots/level2.jpg)
+![level3](screenshots/level3.jpg)
+-->
